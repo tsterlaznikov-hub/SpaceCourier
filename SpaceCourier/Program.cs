@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using SpaceCourier.Views;   // ← ЭТО ОБЯЗАТЕЛЬНО!
+using SpaceCourier.Views;
 
 namespace SpaceCourier
 {
@@ -11,7 +11,7 @@ namespace SpaceCourier
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GameForm());   // теперь видит GameForm
+            Application.Run(new StartForm()); // ← 
         }
     }
 }

@@ -58,6 +58,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\IGameView.cs" />
+    <Compile Include="Views\StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
